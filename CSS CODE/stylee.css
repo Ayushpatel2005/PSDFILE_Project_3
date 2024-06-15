@@ -1,0 +1,415 @@
+body{
+    background-color: aqua;
+}
+
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    text-transform: capitalize;
+    
+}
+.navbar{
+    height: 50px;
+    width: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 200px;
+}
+
+.nav-item ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-item ul >li{
+    list-style:none;
+}
+.nav-item ul li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 29px;
+}
+.nav-item ul > li:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 5px;
+}
+.main1{
+    color: black;
+    font-size: 50px;
+    margin-left: 44px;
+    margin-top: 77px;
+}
+.main2{
+    font-size: 30px;
+    margin-left: 40px;
+}
+.main3{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.Explore, .Seemenu{
+    margin-top: 90px;
+    margin-left: 20px;
+    width: 182px;
+    height: 69px;
+    border-radius: 7px;
+    background-color: #00bec9;
+    font-size: 29px;
+
+}
+
+
+.one{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    bottom: 0;
+    right: 100px;
+    top: 130px;
+    text-align: right;
+}
+.one img{
+    height: 40%;
+}
+.one1{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    bottom: 10%;
+    right: 400px;
+    top: 130px;
+    text-align: right;
+}
+.one1 img{
+    height: 40%;
+}
+.one2{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    bottom: 0;
+    right: -20px;
+    top: 225px;
+    text-align: right;
+}
+.one2 img{
+    height: 70%;
+}
+.one3{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    bottom: 0;
+    right: 650px;
+    top: 370px;
+    text-align: right;
+}
+.one3 img{
+    height: 40%;
+}
+
+
+                         /* ========== Section--2 ========== */                                            
+
+.head{
+    margin-top: 250px;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 400px; */
+}
+.hed-1{
+    color: #eaa73b;
+    font-family: "Montserrat";
+    font-size: 25px;
+}
+
+.food-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+    
+}
+.box-f1{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(232, 250, 251);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.box-f2{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(232, 250, 251);
+    border-radius: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;    
+}
+.box-f3{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(232, 250, 251);
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.dish-1{
+    margin-top: 20px;
+    
+}
+.More{
+    margin-top: 50px;
+    padding: 10px 20px 10px 20px;
+    background-color: #df581e;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    display: inline;
+}
+
+/* ////////////////////////////////////////////////////section 3//////////////////////////////// */
+
+.chef-detail{
+    position: relative;
+    overflow: hidden;
+    
+}
+.chef-head{
+    text-align: center; 
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 182px;
+    height: 69px;
+    border-radius: 7px;
+    background-color: blueviolet;
+    font-size: 29px;
+
+}
+.chef-img{
+    position: absolute;
+}
+.img{
+    position: absolute;
+    left: -120px;
+}
+.img2{
+    position: absolute;
+    right: -120px;
+}
+.img3{
+   position: relative;
+   bottom: -300px;
+   left: 500px;
+
+}
+.img5{
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+    top: -60px;
+}
+.img6{
+    position: relative;
+    bottom: 50px;
+    left: -500px;
+}
+.section-one{
+    height: auto;
+    width: auto;
+    background-color: blueviolet;
+    color: #ffffff;
+    padding: 90px;
+    display: flex;
+    grid-template-columns: auto auto;
+}
+.section-one-1{
+    margin-left: 92px;
+}
+.First1{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.First2{
+    font-size: 29px;
+    /* margin-top: 90px;  */
+}
+
+/* ============================================ Section--4 =========================== */ -->
+ 
+.about-two{
+    padding: 4rem;
+    background-color: #ebe3cd;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.about-two-one{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-two-one >h5{
+    font-size: 29px;
+    line-height: 40px;
+    color: #eaa73b;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.about-two-one >h1{
+    font-size: 50px;
+    color: #12202f;
+    font-weight: 900;
+    font-family: "Playfair Display";
+}
+.about-two-one >p{
+    font-size: 17px;
+    line-height: 31px;
+    color: #12202f;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-align: left;
+}
+.about-two-one >button{
+    width: 200px;
+    height: 90px;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: #df581e;
+}
+.about-two-img{
+    position: absolute;
+    position: relative;
+}
+.about-two-img > :nth-child(1){
+    position: absolute;
+    top: 0px;
+    right: 60%;
+}
+.about-two-img > :nth-child(2){
+    position: absolute;
+    top: -65px;
+    right: 60px;
+}
+.about-two-img > :nth-child(3){
+    margin: 100px;
+}
+              /* //////////////////////// */
+
+              .about-three{
+                padding: 4rem;
+                background-color: #ebe3cd;
+                display: flex;
+                gap: 50px;
+                position: relative;
+                overflow: hidden;
+            }
+            .about-three-one{
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .about-three-one >h5{
+                font-size: 29px;
+                line-height: 40px;
+                color: #eaa73b;
+                font-weight: 400;
+                font-family: "Montserrat";
+            }
+            .about-three-one >h1{
+                font-size: 50px;
+                color: #12202f;
+                font-weight: 900;
+                font-family: "Playfair Display";
+            }
+            .about-three-one >p{
+                font-size: 17px;
+                line-height: 31px;
+                color: #12202f;
+                font-weight: 600;
+                font-family: "Montserrat";
+                text-align: left;
+            }
+            .about-three-one >button{
+                width: 200px;
+                height: 90px;
+                border-radius: 30px;
+                font-size: 30px;
+                background-color: #df581e;
+            }
+            .about-three-img{
+                position: absolute;
+                position: relative;
+            }
+             
+   /* ////////////////////////////////////////////////// */
+
+   .about-four{
+    padding: 4rem;
+    background-color: #ebe3cd;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.about-four-one{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+.about-four-one >h5{
+    font-size: 29px;
+    line-height: 40px;
+    color: #eaa73b;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.about-four-one >h1{
+    font-size: 50px;
+    color: #12202f;
+    font-weight: 900;
+    font-family: "Playfair Display";
+}
+.about-four-one >p{
+    font-size: 17px;
+    line-height: 31px;
+    color: #12202f;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-align: left;
+}
+.about-four-one >button{
+    width: 200px;
+    height: 90px;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: #df581e;
+}
+.about-four-img{
+    position: absolute;
+    position: relative;
+}
+ 
+
+
+
+    
